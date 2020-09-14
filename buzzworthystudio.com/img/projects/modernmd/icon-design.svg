@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="120px" viewBox="0 0 127 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-design</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="project-modernmd@2x" transform="translate(-875.000000, -6671.000000)" stroke="#3A3A3C" stroke-width="2.5">
+            <g id="design" transform="translate(-466.000000, 6570.000000)">
+                <g id="copy" transform="translate(715.000000, 0.000000)">
+                    <g id="icon" transform="translate(628.000000, 103.000000)">
+                        <g id="icon-design">
+                            <ellipse id="Oval" cx="73.0764706" cy="34.075" rx="34.0058824" ry="34.075"></ellipse>
+                            <polygon id="Triangle" points="87.5470588 26.1 123 97.15 52.0941176 97.15"></polygon>
+                            <rect id="Rectangle" x="0" y="47.85" width="68.0117647" height="68.15"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

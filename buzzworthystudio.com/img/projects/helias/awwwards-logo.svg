@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="137px" height="107px" viewBox="0 0 137 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>awwwards-logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="helias-v3@2x" transform="translate(-451.000000, -21273.000000)">
+            <g id="footer-results" transform="translate(0.000000, 19422.000000)">
+                <g id="awards" transform="translate(445.000000, 1619.000000)">
+                    <g id="grid" transform="translate(4.000000, 232.000000)">
+                        <g id="awwwards">
+                            <g id="awwwards-logo" transform="translate(2.000000, 0.000000)">
+                                <rect id="Rectangle-Copy-4" fill="#FCFBF0" x="0" y="0" width="137" height="107"></rect>
+                                <polygon id="logo-w1" fill="#231F20" fill-rule="nonzero" points="57 35 44.1621622 74.8722045 35.4324324 74.8722045 28.5 49.057508 21.5675676 75 12.8378378 75 0 35.1277955 10.0135135 35.1277955 17.2027027 62.4760383 24.0067568 35.1277955 33.1216216 35.1277955 39.9256757 62.4760383 47.1148649 35.1277955"></polygon>
+                                <path d="M63,61 C67.0384615,61 70,63.9615385 70,68 C70,72.0384615 67.0384615,75 63,75 C58.9615385,75 56,72.0384615 56,68 C56,63.9615385 59.0961538,61 63,61 Z" id="logo-p" fill="#231F20" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

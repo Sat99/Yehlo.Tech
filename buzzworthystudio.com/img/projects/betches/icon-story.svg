@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="72px" viewBox="0 0 86 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="project-betches@2x-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-828.000000, -2513.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="intro" transform="translate(-376.000000, 1813.000000)" stroke="#000000" stroke-width="3">
+            <g id="story" transform="translate(631.000000, 603.000000)">
+                <g id="icon" transform="translate(574.000000, 98.000000)">
+                    <path d="M41.8571429,13.2857143 C41.8571429,6.37857143 60.2428571,0.785714286 82.9285714,0.785714286 L82.9285714,59.7142857 C71.4867034,59.7142857 61.1386844,61.1370163 53.6917398,63.4335283 C46.3736779,65.6902951 41.8571429,65.4873047 41.8571429,68.2142857 C41.8571429,65.5375 23.4678571,59.7142857 0.785714286,59.7142857 L0.785714286,0.785714286 C23.4678571,0.785714286 41.8571429,6.37857143 41.8571429,13.2857143 Z" id="Stroke-1"></path>
+                    <path d="M41.8571429,13.2857143 L41.8571429,68.6571429" id="Stroke-3"></path>
+                    <path d="M32.9285714,32.0007143 C27.1785714,29.7971429 19.0464286,28.2042857 9.71428571,27.5721429" id="Stroke-7"></path>
+                    <path d="M32.9285714,42.715 C27.1785714,40.5114286 19.0464286,38.9185714 9.71428571,38.2864286" id="Stroke-9"></path>
+                    <path d="M32.9285714,53.4292857 C27.1785714,51.2257143 19.0464286,49.6328571 9.71428571,49.0007143" id="Stroke-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="102px" viewBox="0 0 124 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="project-storyverse@2x" transform="translate(-884.000000, -2593.000000)" stroke="#FFFFFF" stroke-width="3">
+            <g id="story" transform="translate(191.000000, 2595.000000)">
+                <g id="icon" transform="translate(695.000000, 0.000000)">
+                    <path d="M60,18.3527542 C60,8.21154661 86.8591304,0 120,0 L120,86.5201271 C86.1897758,86.5201271 60,95.187246 60,99 C60,95.0698888 33.1356522,86.5201271 0,86.5201271 L0,0 C33.1356522,0 60,8.21154661 60,18.3527542 Z" id="Stroke-1" stroke-linecap="square"></path>
+                    <path d="M60.5,18 L60.5,99" id="Stroke-3" stroke-linejoin="round"></path>
+                    <path d="M47,45 C38.5784615,42.0145161 26.668,39.8564516 13,39" id="Stroke-7" stroke-linejoin="round"></path>
+                    <path d="M47,61 C38.5784615,58.0145161 26.668,55.8564516 13,55" id="Stroke-9" stroke-linejoin="round"></path>
+                    <path d="M47,77 C38.5784615,74.0145161 26.668,71.8564516 13,71" id="Stroke-11" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

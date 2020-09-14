@@ -1,0 +1,20 @@
+HTTrack3.49-2 launched on Mon, 14 Sep 2020 18:27:58 at http://buzzworthystudio.com/
+(httrack http://buzzworthystudio.com/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:41:14	Error: 	"Not Found" (404) at link buzzworthystudio.com/img/blog/img-arrow.svg (from buzzworthystudio.com/css/styles.css)
+19:41:14	Error: 	"Not Found" (404) at link buzzworthystudio.com/img/projects/taylor/bg-parallax.png (from buzzworthystudio.com/css/styles.css)
+19:41:14	Warning: 	Retry after error -4 (Incorrect length (626227 Bytes, 1340576 expected)) at link buzzworthystudio.com/img/wip-hero-bg.png (from buzzworthystudio.com/css/styles.css)
+19:41:30	Warning: 	Retry after error -4 (Incorrect length (434771 Bytes, 1367983 expected)) at link buzzworthystudio.com/img/team/team-cap-animation.gif (from buzzworthystudio.com/team)
+19:41:30	Warning: 	Retry after error -4 (Incorrect length (432724 Bytes, 898868 expected)) at link buzzworthystudio.com/img/funzone/studio-video.mp4 (from buzzworthystudio.com/funhouse)
+19:42:40	Error: 	"Not Found" (404) at link buzzworthystudio.com/img/funzone/wework-creative-hp.jpg (from buzzworthystudio.com/funhouse)
+19:42:40	Warning: 	Retry after error -4 (Incorrect length (460179 Bytes, 1528474 expected)) at link buzzworthystudio.com/img/funzone/rr-prototype.mp4 (from buzzworthystudio.com/funhouse)
+19:42:51	Warning: 	Retry after error -4 (Incorrect length (378675 Bytes, 1035691 expected)) at link buzzworthystudio.com/img/funzone/hp-refined.mp4 (from buzzworthystudio.com/funhouse)
+19:43:14	Warning: 	Retry after error -4 (Incorrect length (369107 Bytes, 1219543 expected)) at link buzzworthystudio.com/img/projects/helias/scroll.mp4 (from buzzworthystudio.com/project-helias)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 17 minutes 50 seconds : 467 links scanned, 457 files written (104096401 bytes overall) [103175413 bytes received at 22093 bytes/sec], 1508353 bytes transferred using HTTP compression in 104 files, ratio 28%, 1.7 requests per connection
+(3 errors, 6 warnings, 0 messages)

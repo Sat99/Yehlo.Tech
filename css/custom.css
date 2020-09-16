@@ -1,0 +1,27 @@
+.test {
+  background: -webkit-linear-gradient( #FF416C, #FF4B2B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .test1 { */
+
+/* font-size: 5.5rem !important; */
+
+@media (max-width: 576px) {
+  .test1 {
+    font-size: 5.5rem !important
+  }
+}
+
+/* } */
+
+/* .test2 { */
+
+@media (max-width: 576px) {
+  .test2 {
+    font-size: 1.5rem !important
+  }
+}
+
+/* } */

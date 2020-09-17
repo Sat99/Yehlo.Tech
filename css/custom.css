@@ -1,5 +1,5 @@
 .test {
-  background: -webkit-linear-gradient( #FF416C, #FF4B2B);
+  background: -webkit-linear-gradient( #ed3833, #df3d7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -7,6 +7,16 @@
 /* .test1 { */
 
 /* font-size: 5.5rem !important; */
+
+.test20 {
+  color: #1B1A25
+}
+
+.test10 {
+  background: -webkit-linear-gradient(45deg, black, #434343);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @media (max-width: 576px) {
   .test1 {

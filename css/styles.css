@@ -570,7 +570,7 @@
     width: 370vw;
     height: auto;
     padding-top: 370vw;
-    background-color: #1e2756;
+    background-color: #1B1A25;
     position: fixed;
     top: 0;
     right: 0;
@@ -11486,18 +11486,18 @@ header .header-description {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    width: 2000%;
+    /* width: 2000%; */
     position: relative;
     z-index: 500
 }
 
 #team .img-box:hover img {
-    animation: animTeamIn 0.4s steps(19) 1;
+    /* animation: animTeamIn 0.4s steps(19) 1;
     -moz-animation: animTeamIn 0.4s steps(19) 1;
     -webkit-animation: animTeamIn 0.4s steps(19) 1;
     -o-animation: animTeamIn 0.4s steps(19) 1;
     -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards
+    animation-fill-mode: forwards */
 }
 
 @-webkit-keyframes animTeamIn {

@@ -281,7 +281,7 @@
     width: 100px;
     position: fixed;
     height: 100px;
-    top: 0px;
+    top: 10px;
     left: 0px;
     z-index: 9700
 }
@@ -512,7 +512,7 @@
     .logo {
         width: 200px;
         height: 200px;
-        top: 0px;
+        top: 10px;
         left: 0px
     }
     .mc-chicken {

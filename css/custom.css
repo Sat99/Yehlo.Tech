@@ -24,6 +24,12 @@
   }
 }
 
+@media (min-width: 577px) {
+  .test1 {
+    font-size: 10.0rem !important
+  }
+}
+
 /* } */
 
 /* .test2 { */
@@ -31,6 +37,12 @@
 @media (max-width: 576px) {
   .test2 {
     font-size: 1.5rem !important
+  }
+}
+
+@media (min-width: 577px) {
+  .test2 {
+    font-size: 2.8rem !important
   }
 }
 

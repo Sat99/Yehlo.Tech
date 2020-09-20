@@ -10212,7 +10212,7 @@ header .header-description {
 }
 
 .main-heading h1 {
-    font-size: 6em
+    /* font-size: 6em */
 }
 
 .main-heading p {
@@ -11641,7 +11641,7 @@ header .header-description {
         padding: 10vh 0 0
     }
     .main-heading h1 {
-        font-size: 6em
+        /* font-size: 6em */
     }
     .main-heading h1 span {
         display: block
@@ -11679,7 +11679,7 @@ header .header-description {
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
     .main-heading h1 {
-        font-size: 8em!important
+        /* font-size: 8em!important */
     }
 }
 
@@ -11721,7 +11721,7 @@ header .header-description {
 
 @media only screen and (min-width:1024px) and (max-width:1440px) {
     body .main-heading h1 {
-        font-size: 8em!important
+        /* font-size: 8em!important */
     }
     body .team-heading h1 {
         font-size: 3em!important
@@ -11809,7 +11809,7 @@ header .header-description {
         right: 10%
     }
     #contact h1, .main-heading h1 {
-        font-size: 10em
+        /* font-size: 10em */
     }
     #services h4 {
         margin-top: 4em;
@@ -13148,7 +13148,7 @@ header .header-description {
         width: 25%
     }
     #contact h1, .main-heading h1 {
-        font-size: 11em;
+        /* font-size: 11em; */
         line-height: 1em
     }
     .team-heading h1 {

@@ -950,7 +950,8 @@ PageInits = {
                   $.ajax({
                     type: "POST",
                     url: "http://localhost:5050/test",
-                    data: 'Hello',
+                    data: {
+                        name: 'Hello'},
                     success: function(){
                       $('.js-form-response').addClass('sent');
                       $('.js-form-response').html('<h2>Hoooray!</h2> <p>It is a pleasure to meet ya! Give us a day and we will schedule our first date.</p><a class="bs-button btn-small" data-linkName="go home" href="/"><span data-hover="go home">go home</span></a><h6>Check out our creative channels</h6><ul class="social"><li class="dribbble"><a href="https://dribbble.com/Buzzworthy" target="_blank"><span>Dribbble</span><img src="img/social/social-dribbble-loop.gif" alt="Dribbble"></a><li><li class="behance"><a href="https://www.behance.net/BuzzworthyStudio" target="_blank"><span>Behance</span><img src="img/social/social-behance-loop.gif" alt="Behance"></a><li><li class="instagram"><a href="https://www.instagram.com/buzzworthy.studio/" target="_blank"><span>instagram</span><img src="img/social/social-instagram-loop.gif" alt="Instagram"></a><li></ul>');
@@ -964,7 +965,8 @@ PageInits = {
                 $.ajax({
                   type: "POST",
                   url: "http://localhost:5050/test",
-                  data: 'Hello',
+                  data: {
+                      name: 'Hello'},
                   success: function(){
                     $('.js-form-response').addClass('sent');
                     $('.js-form-response').html('<h2>Hoooray!</h2> <p>It is a pleasure to meet ya! Give us a day and we will schedule our first date.</p><a class="bs-button btn-small" data-linkName="go home" href="/"><span data-hover="go home">go home</span></a><h6>Check out our creative channels</h6><ul class="social"><li class="dribbble"><a href="https://dribbble.com/Buzzworthy" target="_blank"><span>Dribbble</span><img src="img/social/social-dribbble-loop.gif" alt="Dribbble"></a><li><li class="behance"><a href="https://www.behance.net/BuzzworthyStudio" target="_blank"><span>Behance</span><img src="img/social/social-behance-loop.gif" alt="Behance"></a><li><li class="instagram"><a href="https://www.instagram.com/buzzworthy.studio/" target="_blank"><span>instagram</span><img src="img/social/social-instagram-loop.gif" alt="Instagram"></a><li></ul>');

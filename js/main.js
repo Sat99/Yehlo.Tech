@@ -723,22 +723,22 @@ PageInits = {
               websiteBudgetSliderInput = document.getElementById('website-slider-budget-input');
  
           noUiSlider.create(websiteBudgetSlider, {
-            start: [5],
+            start: [50],
             connect: true,
             range: {
-                'min': [5],
-                'max': [85]
+                'min': [50],
+                'max': [950]
             },
-            step: 10,
+            step: 50,
             format: wNumb({
             decimals: 0,
-                prefix: '$',
+                prefix: '₹',
             suffix: 'k',
           })
           });
  
           websiteBudgetSlider.noUiSlider.on('update', function ( values, handle, unencoded, isTap, positions ) {
-            var secondValue = parseInt(unencoded) + parseInt(10);
+            var secondValue = parseInt(unencoded) + parseInt(50);
             console.log(values);
             websiteBudgetSliderInput.value = values + ' - ' + secondValue + 'k';
  
@@ -749,22 +749,22 @@ PageInits = {
               ecommerceBudgetSliderInput = document.getElementById('ecommerce-slider-budget-input');
  
           noUiSlider.create(ecommerceBudgetSlider, {
-            start: [5],
+            start: [50],
             connect: true,
             range: {
-                'min': [5],
-                'max': [85]
+                'min': [50],
+                'max': [950]
             },
-            step: 10,
+            step: 50,
             format: wNumb({
             decimals: 0,
-                prefix: '$',
+                prefix: '₹',
             suffix: 'k',
           })
           });
  
           ecommerceBudgetSlider.noUiSlider.on('update', function ( values, handle, unencoded, isTap, positions ) {
-            var secondValue = parseInt(unencoded) + parseInt(10);
+            var secondValue = parseInt(unencoded) + parseInt(50);
             ecommerceBudgetSliderInput.value = values + ' - ' + secondValue + 'k';
           });
  
@@ -773,22 +773,22 @@ PageInits = {
               brandBudgetSliderInput = document.getElementById('brand-slider-budget-input');
  
           noUiSlider.create(brandBudgetSlider, {
-            start: [5],
+            start: [50],
             connect: true,
             range: {
-                'min': [5],
-                'max': [85]
+                'min': [50],
+                'max': [950]
             },
-            step: 10,
+            step: 50,
             format: wNumb({
             decimals: 0,
-                prefix: '$',
+                prefix: '₹',
             suffix: 'k',
           })
           });
  
           brandBudgetSlider.noUiSlider.on('update', function ( values, handle, unencoded, isTap, positions ) {
-            var secondValue = parseInt(unencoded) + parseInt(10);
+            var secondValue = parseInt(unencoded) + parseInt(50);
             brandBudgetSliderInput.value = values + ' - ' + secondValue + 'k';
           });
  
@@ -946,20 +946,25 @@ PageInits = {
             },
             onSuccess : function($form) {
               if(($form).attr('id') !== 'form-4'){
+                //   console.log($form.serialize());
                   $.ajax({
                     type: "POST",
-                    url: "email.php",
-                    data: $form.serialize(),
+                    url: "http://localhost:5050/test",
+                    data: 'Hello',
                     success: function(){
                       $('.js-form-response').addClass('sent');
                       $('.js-form-response').html('<h2>Hoooray!</h2> <p>It is a pleasure to meet ya! Give us a day and we will schedule our first date.</p><a class="bs-button btn-small" data-linkName="go home" href="/"><span data-hover="go home">go home</span></a><h6>Check out our creative channels</h6><ul class="social"><li class="dribbble"><a href="https://dribbble.com/Buzzworthy" target="_blank"><span>Dribbble</span><img src="img/social/social-dribbble-loop.gif" alt="Dribbble"></a><li><li class="behance"><a href="https://www.behance.net/BuzzworthyStudio" target="_blank"><span>Behance</span><img src="img/social/social-behance-loop.gif" alt="Behance"></a><li><li class="instagram"><a href="https://www.instagram.com/buzzworthy.studio/" target="_blank"><span>instagram</span><img src="img/social/social-instagram-loop.gif" alt="Instagram"></a><li></ul>');
                     }
                 });
-              }else{
+              }
+              else
+              {
+                // console.log($form.serialize());
+
                 $.ajax({
                   type: "POST",
-                  url: "email_chat.php",
-                  data: $form.serialize(),
+                  url: "http://localhost:5050/test",
+                  data: 'Hello',
                   success: function(){
                     $('.js-form-response').addClass('sent');
                     $('.js-form-response').html('<h2>Hoooray!</h2> <p>It is a pleasure to meet ya! Give us a day and we will schedule our first date.</p><a class="bs-button btn-small" data-linkName="go home" href="/"><span data-hover="go home">go home</span></a><h6>Check out our creative channels</h6><ul class="social"><li class="dribbble"><a href="https://dribbble.com/Buzzworthy" target="_blank"><span>Dribbble</span><img src="img/social/social-dribbble-loop.gif" alt="Dribbble"></a><li><li class="behance"><a href="https://www.behance.net/BuzzworthyStudio" target="_blank"><span>Behance</span><img src="img/social/social-behance-loop.gif" alt="Behance"></a><li><li class="instagram"><a href="https://www.instagram.com/buzzworthy.studio/" target="_blank"><span>instagram</span><img src="img/social/social-instagram-loop.gif" alt="Instagram"></a><li></ul>');

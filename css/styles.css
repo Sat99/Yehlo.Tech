@@ -212,7 +212,7 @@
 }
 
 .navlinks li:nth-of-type(2) .fake-link:before {
-    content: "About."
+    content: "Services."
 }
 
 .navlinks li:nth-of-type(3) .fake-link:before {
@@ -10309,8 +10309,15 @@ header .header-description {
     color: #fff;
     text-align: center;
     line-height: 1.5em;
-    font-size: 3vw!important
+    font-size: 3vw !important;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
+
+#index-loader .index-copy .word {
+    white-space: nowrap;
+  }
 
 #index-loader .index-copy .letter {
     -webkit-transform-origin: 0 100%;
